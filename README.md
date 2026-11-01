@@ -1,108 +1,49 @@
-# prompt war
-A🛡️ Fake Offer Letter & Phishing Inspector
+# PromptWars — Gen AI Competition Project
 
-AI-Powered Scam & Phishing Detection Web Application
+> **SCAMSHIELD AI: Pause. Verify. Protect.**
 
-Job seekers, students, renters, and everyday internet users are increasingly targeted by fake offer letters, phishing links, payment demands, and deposit scams.
+This repository is the competition submission space for an AI-assisted scam and phishing detection project developed for **PromptWars × Gen AI Club**.
 
-Fake Offer Letter & Phishing Inspector is a security-focused web application designed to help users identify suspicious patterns in job offers, appointment letters, messages, and URLs before they take risky actions.
+## Project
 
-🚨 The Problem
+SCAMSHIELD AI helps users investigate potentially suspicious messages, emails, images, job offers and URLs. It uses a React-based interface and server-side Google Gemini integration to surface possible warning signs in an understandable format.
 
-Scammers often use convincing job offers, fake company names, urgent payment requests, suspicious links, and unrealistic promises to trick users.
+### Problem
 
-Many people may not recognize these warning signs until it is too late.
+Fraudulent recruitment messages, phishing links and advance-payment requests can look convincing. People may be pressured into clicking links, sharing personal information or paying fees before they have time to verify the source.
 
-💡 The Solution
+### Approach
 
-This application uses AI-powered analysis to examine user-provided offer-letter text and URLs and highlight potential scam indicators in a simple, understandable way.
+The application accepts user-provided evidence, sends supported analysis requests to its server-side API and presents AI-generated risk signals and explanations.
 
-It helps users answer:
+### Core capabilities
 
-«“Does this look suspicious, and what warning signs should I check?”»
+- Message and email investigation
+- Image and screenshot evidence analysis
+- Suspicious URL analysis
+- AI-assisted scam indicators and risk explanations
+- Curated demo scenarios for exploring the experience
 
-✨ Key Features
+### Technology
 
-- 📄 Offer Letter Analysis
-  Analyze suspicious job-offer or appointment-letter text for potential red flags.
+- React and TypeScript
+- Vite and Tailwind CSS
+- Node.js and Express
+- Google Gemini via the Google GenAI SDK
 
-- 🔗 URL Analysis
-  Inspect suspicious URLs for phishing-related warning signs.
+## Main project repository
 
-- 🚩 Scam Indicator Detection
-  Identify common patterns associated with fraudulent offers and phishing attempts.
+The actively documented application source is maintained here:
 
-- 💳 Payment-Demand Detection
-  Highlight requests for registration fees, security deposits, processing charges, training fees, or other suspicious payments.
+**[wasimmmmm — SCAMSHIELD AI](https://github.com/wasimchoudhury27/wasimmmmm)**
 
-- 📊 Scam Threat Index
-  Generate an easy-to-understand threat indication based on detected warning signs.
+See its README for the project structure, setup instructions, environment configuration and responsible-use notes.
 
-- 🧠 AI-Powered Security Insights
-  Provide understandable explanations of why specific content may be suspicious.
+## Important note
 
-- 👤 User-Friendly Interface
-  Designed to make basic scam awareness accessible even to users without cybersecurity knowledge.
+This is an AI-assisted awareness tool, not a guarantee that a message, URL or job offer is safe or fraudulent. Always verify claims independently through official channels before sharing information or making payments.
 
-⚙️ How It Works
+---
 
-User Input
-    ↓
-Offer Letter / Message / URL
-    ↓
-AI-Powered Analysis
-    ↓
-Scam & Phishing Red-Flag Detection
-    ↓
-Threat Index
-    ↓
-Security Insights & Warnings
-
-🧠 Technology Stack
-
-- Google AI Studio
-- Google Gemini
-- HTML5
-- CSS3
-- JavaScript
-- Google Services
-
-🔐 Security Focus
-
-The application focuses on detecting indicators such as:
-
-- Unexpected payment requests
-- Fake recruitment patterns
-- Urgency or pressure tactics
-- Suspicious links
-- Unusual requests for personal information
-- Unrealistic job promises
-- Security/deposit demands
-- Potential phishing language
-
-«⚠️ Important: The Scam Threat Index is an AI-assisted indicator, not a guarantee that an offer or URL is legitimate or fraudulent. Users should independently verify companies, recruiters, websites, and payment requests before taking action.»
-
-🎯 Target Users
-
-- 👨‍🎓 Students
-- 💼 Job Seekers
-- 🏠 Renters & PG Seekers
-- 👨‍💻 Internet Users
-- 🏢 Employees
-- 👨‍👩‍👧 General Public
-
-🌍 Why This Project Matters
-
-Online scams are becoming increasingly convincing and difficult to recognize.
-
-This project aims to make basic scam awareness and phishing detection simpler, faster, and more accessible by combining generative AI with a user-friendly web interface.
-
-🏆 Project
-
-Built for: PromptWars × Gen AI Club
-
-Project Category: Generative AI • Cybersecurity • Scam Detection • Web Application
-
-🚀 Vision
-
-«Think before you click. Verify before you pay. Stay safe online.»
+**Project category:** Generative AI · Cybersecurity · Scam Detection · Web Application  
+**Built for:** PromptWars × Gen AI Club
